@@ -1,0 +1,18 @@
+{
+  "name": "vague-theme",
+  "displayName": "Vague Theme",
+  "publisher": "Bitvalen",
+  "icon": "icon.png",
+  "version": "0.0.1",
+  "engines": { "vscode": "^1.60.0" },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Vague Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/theme.json"
+      }
+    ]
+  }
+}
